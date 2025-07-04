@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import logo from '../assets/logo.png';
 
 const listItems = ['Beranda', 'Tentang', 'Manfaat', 'Resep'];
 
@@ -10,7 +11,7 @@ const Navbar = () => {
         
         {/* Logo */}
         <div className='flex items-center'>
-            <img src="../assets/logo.svg" alt="logo" className='w-10 md:w-12' />
+            <img src={logo} alt="logo" className='w-10 md:w-12' />
             <h1 className='text-xl md:text-2xl font-bold text-green-800 ml-2'>
             Se<span className='text-green-700'>ad</span>
             </h1>

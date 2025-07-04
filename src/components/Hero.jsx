@@ -1,4 +1,6 @@
 import React from 'react';
+import pelukbumi from '../assets/pelukbumi.png';
+import sayur from '../assets/sayuran.png';
 
 const Hero = () => {
   return (
@@ -23,7 +25,7 @@ const Hero = () => {
 
           {/* Sayuran Image */}
           <img
-            src="../assets/sayuran.png"
+            src={sayur}
             alt="sayuran"
             className='absolute hidden md:block w-[100px] sm:w-[120px] md:w-[200px] lg:w-[250px] xl:w-[300px] top-[40px] right-[-30px] md:top-[200px] md:right-[-60px] pointer-events-none'
           />
@@ -32,7 +34,7 @@ const Hero = () => {
         {/* Hero image */}
         <div className='w-full md:w-1/2 flex justify-center md:justify-end'>
           <img
-            src="../assets/pelukbumi.png"
+            src={pelukbumi}
             alt="peluk bumi"
             className='w-[80%] sm:w-[70%] md:w-full max-w-[500px]'
           />

@@ -1,25 +1,22 @@
 import React from 'react';
+import img from '../assets/hutan.jpg';
 
 const data = [
     {
         title: 'Manfaat Lingkungan',
         desc: 'Mengurangi konsumsi daging membantu menurunkan emisi gas rumah kaca.',
-        img: "../assets/hutan.jpg",
     },
         {
         title: 'Edukasi Gaya Hidup',
         desc: 'Website bantu orang belajar hidup sehat dengan cara yang sederhana.',
-        img: "../assets/hutan.jpg",
     },
     {
         title: 'Manfaat Kesehatan',
         desc: 'Lebih banyak makan sayur bisa menurunkan risiko penyakit jantung dan obesitas.',
-        img: "../assets/hutan.jpg",
     },
     {
         title: 'Komunitas Positif',
         desc: 'Jadi tempat berkumpulnya orang-orang yang punya tujuan menjaga bumi dan tubuh.',
-        img: "../assets/hutan.jpg",
     },
 ]
 
@@ -36,8 +33,9 @@ const Manfaat = () => {
             >
                 <div
                 className="w-full h-48 sm:h-56 bg-cover bg-center mb-4 rounded-2xl"
-                style={{ backgroundImage: `url(${item.img})` }}
-                ></div>
+                >
+                    <img src={img} alt="" />
+                </div>
 
                 <div>
                 <h2 className="mb-4 text-lg sm:text-xl font-semibold text-center text-green-600">{item.title}</h2>

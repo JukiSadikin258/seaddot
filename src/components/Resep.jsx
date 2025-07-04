@@ -1,12 +1,14 @@
 import React from "react";
+import photo from '../assets/photo.webp';
+import resepPdf from '../assets/Resep_gadogado.pdf';
 
 const resepList = [
-    { title: "Gado-gado", gambar: "../assets/photo.webp", file: "../assets/Resep_gadogado.pdf" },
-    { title: "Karedok", gambar: "../assets/photo.webp", file: "../assets/Resep_gadogado.pdf" },
-    { title: "Papeda", gambar: "../assets/photo.webp", file: "../assets/Resep_gadogado.pdf" },
-    { title: "Sayur Daun Singkong", gambar: "../assets/photo.webp", file: "../assets/Resep_gadogado.pdf" },
-    { title: "Sayur Nangka", gambar: "../assets/photo.webp", file: "../assets/Resep_gadogado.pdf" },
-    { title: "Gado-gado", gambar: "../assets/photo.webp", file: "../assets/Resep_gadogado.pdf" },
+    { title: "Gado-gado", gambar: photo, file: resepPdf },
+    { title: "Karedok", gambar: photo, file: resepPdf },
+    { title: "Papeda", gambar: photo, file: resepPdf },
+    { title: "Sayur Daun Singkong", gambar: photo, file: resepPdf },
+    { title: "Sayur Nangka", gambar: photo, file: resepPdf },
+    { title: "Gado-gado", gambar: photo, file: resepPdf },
 ];
 
 const Resep = () => {
