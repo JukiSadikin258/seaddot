@@ -1,12 +1,12 @@
 import React from "react";
 
 const resepList = [
-    { title: "Gado-gado", gambar: "/src/assets/photo.webp", file: "/src/assets/Resep_gadogado.pdf" },
-    { title: "Karedok", gambar: "/src/assets/photo.webp", file: "/src/assets/Resep_gadogado.pdf" },
-    { title: "Papeda", gambar: "/src/assets/photo.webp", file: "/src/assets/Resep_gadogado.pdf" },
-    { title: "Sayur Daun Singkong", gambar: "/src/assets/photo.webp", file: "/src/assets/Resep_gadogado.pdf" },
-    { title: "Sayur Nangka", gambar: "/src/assets/photo.webp", file: "/src/assets/Resep_gadogado.pdf" },
-    { title: "Gado-gado", gambar: "/src/assets/photo.webp", file: "/src/assets/Resep_gadogado.pdf" },
+    { title: "Gado-gado", gambar: "../assets/photo.webp", file: "../assets/Resep_gadogado.pdf" },
+    { title: "Karedok", gambar: "../assets/photo.webp", file: "../assets/Resep_gadogado.pdf" },
+    { title: "Papeda", gambar: "../assets/photo.webp", file: "../assets/Resep_gadogado.pdf" },
+    { title: "Sayur Daun Singkong", gambar: "../assets/photo.webp", file: "../assets/Resep_gadogado.pdf" },
+    { title: "Sayur Nangka", gambar: "../assets/photo.webp", file: "../assets/Resep_gadogado.pdf" },
+    { title: "Gado-gado", gambar: "../assets/photo.webp", file: "../assets/Resep_gadogado.pdf" },
 ];
 
 const Resep = () => {

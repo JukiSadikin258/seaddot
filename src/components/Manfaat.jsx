@@ -4,22 +4,22 @@ const data = [
     {
         title: 'Manfaat Lingkungan',
         desc: 'Mengurangi konsumsi daging membantu menurunkan emisi gas rumah kaca.',
-        img: "/src/assets/hutan.jpg",
+        img: "../assets/hutan.jpg",
     },
         {
         title: 'Edukasi Gaya Hidup',
         desc: 'Website bantu orang belajar hidup sehat dengan cara yang sederhana.',
-        img: "/src/assets/hutan.jpg",
+        img: "../assets/hutan.jpg",
     },
     {
         title: 'Manfaat Kesehatan',
         desc: 'Lebih banyak makan sayur bisa menurunkan risiko penyakit jantung dan obesitas.',
-        img: "/src/assets/hutan.jpg",
+        img: "../assets/hutan.jpg",
     },
     {
         title: 'Komunitas Positif',
         desc: 'Jadi tempat berkumpulnya orang-orang yang punya tujuan menjaga bumi dan tubuh.',
-        img: "/src/assets/hutan.jpg",
+        img: "../assets/hutan.jpg",
     },
 ]
 
