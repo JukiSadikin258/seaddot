@@ -7,8 +7,9 @@ import Resep from './components/Resep';
 import Tentang from './components/Tentang';
 import Manfaat from './components/Manfaat';
 import Footer from './components/Footer';
-import KalkulatorAir from './pages/KalkulatorAir';
-import Kalkulator from './components/Kalkulator';
+import KalkulatorAir from './components/KalkulatorAir';
+import News from './components/News';
+import Berita from './pages/Berita';
 
 import './styles.css';
 
@@ -27,14 +28,15 @@ function App() {
               <Tentang />
               <Manfaat />
               <Resep />
-              <Link to="/kalkulator"> <Kalkulator /> </Link>
+              <Link to="/berita"> <News /> </Link>
               <Footer />
             </>
           }
         />
 
-        {/* Halaman kalkulator */}
+        {/* Halaman */}
         <Route path="/kalkulator" element={<KalkulatorAir />} />
+        <Route path="/berita" element={<Berita />} />
         
       </Routes>
     </BrowserRouter>

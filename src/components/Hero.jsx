@@ -19,7 +19,7 @@ const Hero = () => {
             Kurangi daging, selamatkan bumi, mulai dari Senin. Ciptakan kebiasaan yang berdampak besar untuk lingkungan dan tubuhmu.
           </p>
 
-          <button className='py-2 px-6 bg-[#ff632a] hover:bg-[#ff4400] text-white rounded-full mt-8 mx-auto md:mx-0 block'>
+          <button className='py-2 px-6 border-2 border-[#ff632a] bg-transparent hover:bg-[#ff632a] text-[#ff632a] font-medium hover:text-white rounded-xl mt-8 mx-auto md:mx-0 block'>
             Gabung Gerakan
           </button>
 

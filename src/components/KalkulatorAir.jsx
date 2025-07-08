@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Link } from 'react-router-dom';
-
+// Kalkulator Air untuk menghitung jejak air dari makanan yang dikonsumsi
 
 
 const dataMakanan = [
@@ -14,10 +13,9 @@ const dataMakanan = [
 { nama: "Sayur", air: 40 },
 { nama: "Ubi", air: 50 },
 { nama: "Buah", air: 70 },
-{ nama: "Susu", air: 150 },
 ];
 
-    export default function KalkulatorAir() {
+    const KalkulatorAir = () =>  {
         const [terpilih, setTerpilih] = useState([]);
         const [totalAir, setTotalAir] = useState(0);
 
@@ -43,14 +41,11 @@ const dataMakanan = [
         };
 
     return (
-        <div className="max-w-xl mx-auto my-10 p-6 bg-white rounded-xl shadow">
-        <div className="mb-4">
-        <Link to="/" className="text-green-600 hover:text-green-700 hover:underline">← Kembali ke Beranda</Link>
-        </div>
-        <h2 className="text-2xl font-bold mb-4 text-green-800">Kalkulator Jejak Air</h2>
-        <p className="mb-4 text-gray-600">Pilih makanan yang kamu konsumsi dalam satu piring:</p>
+        <div className="max-w-2xl mx-auto my-10 p-6 bg-white rounded-xl shadow">
+        <h2 className="text-2xl font-bold mb-4 text-green-800">Ayo Hitung Jejak Air Dari Makananmu!</h2>
+        <p className="mb-4 text-gray-700">Makanan yang kamu makan hari ini</p>
 
-        <div className="flex flex-wrap gap-3 mb-6">
+        <div className="flex flex-wrap gap-3 mb-16">
             {dataMakanan.map((item) => (
             <button
                 key={item.nama}
@@ -78,6 +73,7 @@ const dataMakanan = [
             </p>
         )}
         </div>
-
     );
 }
+
+export default KalkulatorAir;
